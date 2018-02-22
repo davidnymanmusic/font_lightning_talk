@@ -25,10 +25,14 @@ h1 {
   display: inline;
 }
 
+h1::selection {
+  background-color: rgba(50, 50, 50, 1);
+  color: rgb(250, 250, 250)
+}
+
 p {
   font-size: 22px;
 }
-
 
 .container {
   padding: 20px;
@@ -57,23 +61,23 @@ p {
 }
 
 #serif {
-  border: 10px solid rgb(230, 87, 62);
+  border: 20px solid rgb(230, 87, 62);
 }
 
 #sanSerif {
-  border: 10px solid rgb(58, 118, 189);
+  border: 20px solid rgb(58, 118, 189);
 }
 
 #monospace {
-  border: 10px solid rgb(102, 176, 98);
+  border: 20px solid rgb(102, 176, 98);
 }
 
 #display {
-  border: 10px solid rgb(124, 99, 152);
+  border: 20px solid rgb(124, 99, 152);
 }
 
 #script {
-  border: 10px solid rgb(240, 155, 29);
+  border: 20px solid rgb(240, 155, 29);
 }
 
 .sources {
