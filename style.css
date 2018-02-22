@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Cutive+Mono|Open+Sans|Sorts+Mill+Goudy');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+/*
+font-family: 'Sorts Mill Goudy', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Cutive Mono', monospace;
+font-family: 'Bungee Shade', cursive;
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+/* font-family: 'Permanent Marker', cursive; */
+
+body {
+  background-color: rgb(250, 250, 250);
+  text-align: center;
+  color: rgb(37, 37, 37);
+  margin: 7%;
+}
+
+h1 {
+  font-size: 70px;
+  color: rgba(50, 50, 50, 1);
+  transition: .3s;
+  font-family: 'Permanent Marker', cursive;
+  display: inline;
+}
+
+p {
+  font-size: 22px;
+}
+
+
+.container {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid white;
+}
+
+.serif {
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+.sanSerif {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.monospace {
+  font-family: 'Cutive Mono', monospace;
+}
+
+.display {
+  font-family: 'Bungee Shade', cursive;
+}
+
+.script {
+  font-family: 'Sacramento', cursive;
+}
+
+#serif {
+  border: 10px solid rgb(230, 87, 62);
+}
+
+#sanSerif {
+  border: 10px solid rgb(58, 118, 189);
+}
+
+#monospace {
+  border: 10px solid rgb(102, 176, 98);
+}
+
+#display {
+  border: 10px solid rgb(124, 99, 152);
+}
+
+#script {
+  border: 10px solid rgb(240, 155, 29);
+}
+
+.sources {
+  font-size: 20px;
+  color: rgb(59, 54, 75);
+  text-align: left;
+  padding: 5%;
+}
